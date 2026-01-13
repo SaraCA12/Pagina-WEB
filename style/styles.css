@@ -1,0 +1,878 @@
+
+
+
+/*LAPTOP*/
+@media (min-width: 769px) and (max-width: 1024px){
+/* 1. Background color for full body */
+body{
+    background-color: rgba(146, 146, 146, 0.383);
+}
+
+/* 2. Header Style */
+
+/* 2.1 Icon and title Style */
+.headerstyle{
+    background-color: rgb(48, 69, 90);
+    margin: 2%;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: 10% 20% 70%;
+}
+
+.titleheader{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4%;
+}
+
+.mainicon{
+    max-width: 50%;
+    padding: 15%;
+
+}
+
+/* 2.2 Navbar Style */
+.liststyle{
+    display: flex;
+    list-style: none;
+   justify-content: center;
+}
+
+.options{
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.options1{
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.buttonstyle{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    width: 110%;
+    height: 120%;
+    border-radius:10px;
+    border-color: orange;
+}
+
+
+/* 3. Main Style */
+
+/* 3.1 First section */
+
+.firstsecstyle{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    background-color: rgb(48, 69, 90);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+
+
+/* 3.1.1 Text and buttons Style subsection 1 */
+.sectionstyle1{
+    padding: 6%;
+    padding-left: 8%;
+}
+
+.titlestyle2{
+    color: white;
+    font-size: 260%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.pstyle1{
+    color: white;
+    font-size: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.buttonstyle1{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    border-radius:12px;
+    border-color: orange;
+    padding: 3%;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonstyle2{
+    color: white;
+    background-color: rgb(48, 69, 90);
+    font-size: 100%;
+    border-radius:12px;
+    border-color: rgb(246, 241, 233);
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 3.1.2 Image Style subsection 2 */
+.imagestyle{
+    max-width: 100%;
+    height: auto;
+}
+
+/* 3.2 Second section */
+
+.secondsecstyle{
+    background-color: white;
+    margin-top: 0%;
+    margin: 2%;
+}
+
+/* 3.2.1 Services title style */
+.titlestyle3{
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* 3.2.2 Cards style */
+
+.cardsection{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.articlecards{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    margin-top: 3%;
+    padding: 5%;
+    padding-top: 1%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+}
+
+.titlestyle4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+.iconcardstyle{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.pstyle2{
+    color: rgb(129, 124, 124);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+/* 3.3 Third section */
+
+.thirdsecstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: whitesmoke;
+}
+
+.pstyle3{
+    color: rgb(98, 96, 96);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+.cardsection2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.articlecards2{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+}    
+
+.imagecardstyle{
+    width: 100%;
+    height: 50%;
+}
+
+.titlestyle5{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8%;
+}
+
+.liststyle2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* 3.4 Footer section */
+
+.footerstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: rgb(48, 69, 90);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sectionstyle2{
+    padding: 8%;
+    padding-top: 4%;
+}
+
+.titlestyle6{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 190%;
+}
+
+.pstyle4{
+    color: white;
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divstyle{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgfooter{
+    width: 20%;
+    height: auto;
+}
+
+.formspace{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    background-color:rgb(48, 69, 90) ;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    height: 30px;
+    margin-right: 4%;
+}
+
+.finalstyle{
+    display: flex;
+    flex-direction: row;
+    gap: 5%
+}
+
+.buttonstyle4{
+    background-color: orange;
+    border-radius: 8px;
+    border-color: orange;
+    color: white;
+    width: 30%;
+}
+}
+
+/*TABLET*/
+@media (min-width: 481px) and (max-width: 768px){
+/* 1. Background color for full body */
+body{
+    background-color: rgba(146, 146, 146, 0.383);
+}
+
+/* 2. Header Style */
+
+/* 2.1 Icon and title Style */
+.headerstyle{
+    background-color: rgb(48, 69, 90);
+    margin: 2%;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: 10% 20% 70%;
+}
+
+.titleheader{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4%;
+}
+
+.mainicon{
+    max-width: 50%;
+    padding: 15%;
+
+}
+
+/* 2.2 Navbar Style */
+.liststyle{
+    display: flex;
+    list-style: none;
+   justify-content: center;
+}
+
+.options{
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.buttonstyle{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    width: 110%;
+    height: 120%;
+    border-radius:10px;
+    border-color: orange;
+}
+
+
+/* 3. Main Style */
+
+/* 3.1 First section */
+
+.firstsecstyle{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    background-color: rgb(48, 69, 90);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+
+
+/* 3.1.1 Text and buttons Style subsection 1 */
+.sectionstyle1{
+    padding: 6%;
+    padding-left: 8%;
+}
+
+.titlestyle2{
+    color: white;
+    font-size: 260%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.pstyle1{
+    color: white;
+    font-size: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.buttonstyle1{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    border-radius:12px;
+    border-color: orange;
+    padding: 3%;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonstyle2{
+    color: white;
+    background-color: rgb(48, 69, 90);
+    font-size: 100%;
+    border-radius:12px;
+    border-color: rgb(246, 241, 233);
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 3.1.2 Image Style subsection 2 */
+.imagestyle{
+    max-width: 100%;
+    height: auto;
+}
+
+/* 3.2 Second section */
+
+.secondsecstyle{
+    background-color: white;
+    margin-top: 0%;
+    margin: 2%;
+}
+
+/* 3.2.1 Services title style */
+.titlestyle3{
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* 3.2.2 Cards style */
+
+.cardsection{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.articlecards{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    margin-top: 3%;
+    padding: 5%;
+    padding-top: 1%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+}
+
+.titlestyle4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+.iconcardstyle{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.pstyle2{
+    color: rgb(129, 124, 124);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+/* 3.3 Third section */
+
+.thirdsecstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: whitesmoke;
+}
+
+.pstyle3{
+    color: rgb(98, 96, 96);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+.cardsection2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.articlecards2{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+}    
+
+.imagecardstyle{
+    width: 100%;
+    height: 50%;
+}
+
+.titlestyle5{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8%;
+}
+
+.liststyle2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* 3.4 Footer section */
+
+.footerstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: rgb(48, 69, 90);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sectionstyle2{
+    padding: 8%;
+    padding-top: 4%;
+}
+
+.titlestyle6{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 190%;
+}
+
+.pstyle4{
+    color: white;
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divstyle{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgfooter{
+    width: 20%;
+    height: auto;
+}
+
+.formspace{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    background-color:rgb(48, 69, 90) ;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    height: 30px;
+    margin-right: 4%;
+}
+
+.finalstyle{
+    display: flex;
+    flex-direction: row;
+    gap: 5%
+}
+
+.buttonstyle4{
+    background-color: orange;
+    border-radius: 8px;
+    border-color: orange;
+    color: white;
+    width: 30%;
+}
+}
+
+/*SMARTHPHONE*/
+@media (max-width: 480px){
+/* 1. Background color for full body */
+body{
+    background-color: rgba(146, 146, 146, 0.383);
+}
+
+/* 2. Header Style */
+
+/* 2.1 Icon and title Style */
+.headerstyle{
+    background-color: rgb(48, 69, 90);
+    margin: 2%;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+}
+
+.titleheader{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4%;
+    font-size: 180%;
+    margin-left: 5%;
+}
+
+.mainicon{
+    max-width: 100%;
+    padding: 15%;
+    margin-top: 44%;
+    margin-left: 8%;
+}
+
+/* 2.2 Navbar Style */
+.liststyle{
+    display: flex;
+    list-style: none;
+   justify-content: center;
+}
+
+.options{
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+
+}
+
+.options1{
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonstyle{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    width: 110%;
+    height: 180%;
+    border-radius:10px;
+    border-color: orange;
+    text-decoration: none;
+}
+
+.eraseline{
+    text-decoration: none;
+    color: white;
+}
+
+/* 3. Main Style */
+
+/* 3.1 First section */
+
+.firstsecstyle{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    background-color: rgb(48, 69, 90);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+
+
+/* 3.1.1 Text and buttons Style subsection 1 */
+.sectionstyle1{
+    padding: 6%;
+    padding-left: 8%;
+}
+
+.titlestyle2{
+    color: white;
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.pstyle1{
+    color: white;
+    font-size: 80%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.colum{
+    display: flex;
+    flex-direction: column
+}
+
+.buttonstyle1{
+    color: white;
+    background-color: orange;
+    font-size: 100%;
+    border-radius:12px;
+    border-color: orange;
+    padding: 3%;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonstyle2{
+    color: white;
+    background-color: rgb(48, 69, 90);
+    font-size: 100%;
+    border-radius:12px;
+    border-color: rgb(246, 241, 233);
+    padding: 3%;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 3.1.2 Image Style subsection 2 *//* estirarlo haci arriba */
+.imagestyle{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: left;
+}
+
+/* 3.2 Second section */
+
+.secondsecstyle{
+    background-color: white;
+    margin-top: 0%;
+    margin: 2%;
+}
+
+/* 3.2.1 Services title style */
+.titlestyle3{
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 8%;
+    padding-left: 12%;
+}
+
+/* 3.2.2 Cards style */
+
+
+.articlecards{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    padding: 5%;
+    padding-top: 1%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+}
+
+.titlestyle4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+.iconcardstyle{
+    width: 10%;
+    margin-right: 20px;
+}
+
+.pstyle2{
+    color: rgb(129, 124, 124);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+/* 3.3 Third section */
+
+.thirdsecstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: whitesmoke;
+}
+
+.pstyle3{
+    color: rgb(98, 96, 96);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+.articlecards2{
+    background-color: rgba(128, 128, 128, 0.126);
+    margin: 8%;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.2);
+    width: 60%;
+    height: 50%;
+}    
+
+.imagecardstyle{
+    width: 100%;
+    height: 40%;
+}
+
+.cardsection2{
+    justify-content: center;
+}
+
+.titlestyle5{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8%;
+}
+
+.liststyle2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.thirdsecstyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 3.4 Footer section */
+
+.footerstyle{
+    margin-top: 0%;
+    margin: 2%;
+    background-color: rgb(48, 69, 90);
+}
+
+.sectionstyle2{
+    padding: 8%;
+    padding-top: 4%;
+}
+
+.titlestyle6{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 160%;
+    text-align: center;
+}
+
+.pstyle4{
+    color: white;
+    font-size: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divstyle{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgfooter{
+    width: 20%;
+    height: auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formspace{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    background-color:rgb(48, 69, 90) ;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    height: 30px;
+    margin-bottom: 8%;
+}
+
+.finalstyle{
+text-align: center;
+}
+
+.buttonstyle4{
+    background-color: orange;
+    border-radius: 8px;
+    border-color: orange;
+    color: white;
+    width: 30%;
+}
+}
